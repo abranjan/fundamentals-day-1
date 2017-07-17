@@ -9,6 +9,7 @@ const game = function () {
 // check turns
 
 // check for winner
+// how many ways to win?  3 horiz rows, 3 vert rows, 2 diagonal
 
 // redraw board
 
@@ -16,6 +17,8 @@ const game = function () {
 
   let boardPositions = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   let initialize = true;
+  let turnCount = 0;
+  let winner = false;
 
   const validateInput = function (position, letter) {
     if(!(position >= 1  && position <= 9)) {
@@ -40,11 +43,48 @@ const game = function () {
 
   };
 
+  const sameLetter = function (ltrA, ltrB, ltrC) {
+    console.log(ltrA, ltrB, ltrC);
+    if(ltrA == ltrB && ltrB == ltrC) {
+      return true
+    }
+  };
+
+  const checkForWinner = function () {
+    if(turnCount < 5) {
+      console.log('turnCount = ', turnCount);
+      console.log('winner = ', winner);
+      return winner;
+    }
+    if(
+      // rows
+      sameLetter(boardPositions[0], boardPositions[1], boardPositions[2]) ||
+      sameLetter(boardPositions[3], boardPositions[4], boardPositions[5]) ||
+      sameLetter(boardPositions[6], boardPositions[7], boardPositions[8]) ||
+      // columns
+      sameLetter(boardPositions[0], boardPositions[3], boardPositions[6]) ||
+      sameLetter(boardPositions[1], boardPositions[4], boardPositions[7]) ||
+      sameLetter(boardPositions[2], boardPositions[5], boardPositions[8]) ||
+      // diagonals
+      sameLetter(boardPositions[0], boardPositions[4], boardPositions[8]) ||
+      sameLetter(boardPositions[2], boardPositions[4], boardPositions[6])
+    ) {
+      winner = true;
+      return winner;
+    }
+
+    return winner;
+  };
+
   return {
 
     drawBoard : function () {
       if(initialize) {
         console.log('Tic Tac Toe!');
+      }
+      if(winner) {
+        console.log('Winner!!  Game Over!');
+        return
       }
       console.log(boardPositions[0] + '  |  ' + boardPositions[1] + '  |  ' + boardPositions[2]);
       console.log('-- | --- | --');
@@ -60,6 +100,8 @@ const game = function () {
 
     takeTurn : function(position, letter) {
       validateInput(position, letter);
+      turnCount++;
+      checkForWinner();
       this.drawBoard();
     }
 
