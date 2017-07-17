@@ -1,6 +1,7 @@
 const game = function () {
 // draw game board, initialize game
 // log top row, divider, mid row, divider, bottom row
+// log rules for game
 
 // place a mark,
 // validate input: pos must be a num, must be between 1 and 9
@@ -10,6 +11,8 @@ const game = function () {
 
 // check for winner
 // how many ways to win?  3 horiz rows, 3 vert rows, 2 diagonal
+// end game if winner, display win message
+// end game if a draw
 
 // redraw board
 
@@ -19,6 +22,7 @@ const game = function () {
   let initialize = true;
   let turnCount = 0;
   let winner = false;
+  let winningPlayer;
 
   const validateInput = function (position, letter) {
     if(!(position >= 1  && position <= 9)) {
@@ -39,13 +43,18 @@ const game = function () {
       return
     } else {
       boardPositions[position - 1] = letter;
+      turnCount++;
     }
 
   };
 
   const sameLetter = function (ltrA, ltrB, ltrC) {
+    if(ltrA == ' ' || ltrB == ' ' || ltrC == ' ') {
+      return
+    }
     console.log(ltrA, ltrB, ltrC);
     if(ltrA == ltrB && ltrB == ltrC) {
+      winningPlayer = ltrA;
       return true
     }
   };
@@ -81,9 +90,17 @@ const game = function () {
     drawBoard : function () {
       if(initialize) {
         console.log('Tic Tac Toe!');
+        console.log('Available methods are: \n \n');
+        console.log('ticTacToe.takeTurn(position, letter)');
+        console.log('   - Places a letter (use X or O) in the supplied position. Must be a string. \n');
+        console.log('ticTacToe.drawBoard() \n');
+        console.log('   - Displays the current board \n');
+        console.log('ticTacToe.newGame() \n');
+        console.log('   - Starts a new game \n \n');
+        console.log('Board Positions: \n');
       }
       if(winner) {
-        console.log('Winner!!  Game Over!');
+        console.log(winningPlayer +' Wins!  Game Over! Use ticTacToe.newGame() to start a new game.');
         return
       }
       console.log(boardPositions[0] + '  |  ' + boardPositions[1] + '  |  ' + boardPositions[2]);
@@ -100,8 +117,15 @@ const game = function () {
 
     takeTurn : function(position, letter) {
       validateInput(position, letter);
-      turnCount++;
       checkForWinner();
+      this.drawBoard();
+    },
+
+    newGame : function () {
+      initialize = true;
+      winner = false;
+      turnCount = 0;
+      boardPositions = [1, 2, 3, 4, 5, 6, 7, 8, 9];
       this.drawBoard();
     }
 
