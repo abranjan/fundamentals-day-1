@@ -1,3 +1,12 @@
+// Practice what you have learned with these exercises. 
+// Use console.log() to check your work for each problem.
+
+// ******* console.log vs return *******
+
+// 1. Write 2 functions.  Both should accept a string as a parameter.  In the first, return the string.
+// In the second, console.log the string.  What do you see in the console when you invoke each one?
+// Can you use a variable to catch the return value from the first function?
+
 // Remember to look at documentation and ask your partners when you get stuck
 
 var add = function(a, b) {
