@@ -72,3 +72,15 @@ function max(a, b) {
     return b;
   }
 }
+
+
+var bigNumber = function(numA, numB) {
+
+  if(numA > numB) {
+    console.log('A is big!');
+  } else {
+    console.log('B is big!');
+  }
+};
+
+bigNumber(4, 89);

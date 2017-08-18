@@ -18,6 +18,8 @@ const game = function () {
 
 // start new game
 
+// refactor to use an object and arrays to iterate over
+
   let boardPositions = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   let initialize = true;
   let turnCount = 0;
