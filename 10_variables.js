@@ -10,10 +10,4 @@
 
 // 5. Log the length of 'snack'.
 
-// variables & mutability
-var x = 1;
-console.log("x=" + x);
-x = 2;
-console.log("x=" + x);
-x = 3;
-console.log("x=" + x);
+

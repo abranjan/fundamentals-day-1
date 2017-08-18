@@ -1,13 +1,5 @@
-// Practice what you have learned with these exercises. 
-// Use console.log() to check your work for each problem.
-
-// ******* console.log vs return *******
-
-// 1. Write 2 functions.  Both should accept a string as a parameter.  In the first, return the string.
-// In the second, console.log the string.  What do you see in the console when you invoke each one?
-// Can you use a variable to catch the return value from the first function?
-
 // Remember to look at documentation and ask your partners when you get stuck
+// Simple math functions
 
 var add = function(a, b) {
     return a + b;
@@ -15,7 +7,6 @@ var add = function(a, b) {
 
 var result = add(3,4);
 console.log('The result of add is: ', result);
-
 
 // Use the example above to write your own functions to solve common math problems
 
@@ -29,19 +20,31 @@ console.log('The result of add is: ', result);
 
 // your turn!  Think of more functions on your own.
 
-var greeting = function(name) {
-    console.log('Hello ', name);
-}
 
-greeting('JavaScript');
-greeting('Rachel');
-greeting('Santa Claus');
+// Functions with strings
 
-// ******* Basic Functions *******
+// Write a function that accepts a name and prints "Hello, name!"
+
+// Write a function that accepts two strings and prints them together in a sentence.
+
+/* 
+Functions that return a boolean
+Write a function that:
+1. accepts a number
+2. evaluats an expression with that number
+3. returns true or false based on the expression
+*/
 
 var counter = 0;
 // 1. Write a function that will add 5 to the counter value each time you invoke it.
 
 // 2. Write a function that will divide the counter value by 3 and return the remainder.
 
-// 3. Write a function that will print 'ODD' or 'EVEN' based on the counter value.
+// 3. Write a function that will print the counter value in a sentence.
+
+
+// 1. Write 2 functions.  Both should accept a string as a parameter.  In the first, return the string.
+// In the second, console.log the string.  What do you see in the console when you invoke each one?
+// Can you use a variable to catch the return value from the first function?
+
+// Survey: copy and paste into address bar:  https://docs.google.com/forms/d/e/1FAIpQLScbSRAEAUcG7_m-C3Ov0BUBg8n1-k7s44hc3D9byuAfFkfq5A/viewform?usp=sf_link
