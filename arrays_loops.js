@@ -2,15 +2,6 @@
 var studentArr = ['Oumou', 'Susma', 'Gilberto', 'Hsa'];
 var favoriteNums = [10, 13, 16, 17, 18];
 
-console.log('\nTask #1: write a function which uses console.log to log the numbers 0-9');
-var logNumbers = function() {
-    for(var i = 0; i < 9; i++) {
-        console.log(i);
-    }
-}
-logNumbers(); // Solution has been provided for Task #1
-
-
 console.log('\nTask #2: write a function to console.log each value in the following array');
 var logArray = function(array) {
     for(var i = 0; i < array.length; i++) {

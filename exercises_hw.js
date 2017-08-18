@@ -13,10 +13,6 @@
 // In the second, console.log the string.  What do you see in the console when you invoke each one?
 // Can you use a variable to catch the return value from the first function?
 
-// *******Conditionals and Loops*******
-
-// 2. Write a function that accepts 2 numbers (begin and end of a range).  Loop through the range
-// and print a message for each.
 
 // *******Arrays*******
 
