@@ -15,9 +15,6 @@
 
 // *******Conditionals and Loops*******
 
-// 1. Write a function that accepts a number as a parameter and prints a message that depends on the number.
-// Ex: If you invoke the function with 29, it might print, 'Wow, it is hot today!'
-
 // 2. Write a function that accepts 2 numbers (begin and end of a range).  Loop through the range
 // and print a message for each.
 
