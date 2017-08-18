@@ -14,17 +14,6 @@
 // Can you use a variable to catch the return value from the first function?
 
 
-// *******Arrays*******
-
-// 1. Declare a variable and assign it to an empty array.
-
-// 2. Add the names of three cities you would like to visit to your array.
-
-// 3. Write a function that will loop over your array and print, 'I would like to visit (city name)'.
-
-// 4. Write a function that will loop over your array and print 'long' if the city's name has more
-// than 6 letters, or 'short' if the city's name 6 or fewer letters.
-
 // *******Objects*******
 
 // 1. Create an object called 'me' with properties for your name, age, city, job.
