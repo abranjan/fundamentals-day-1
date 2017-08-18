@@ -6,14 +6,6 @@
 
 
 
-// *******Basic Functions*******
-
-var counter = 0;
-// 1. Write a function that will add 5 to the counter value each time you invoke it.
-
-// 2. Write a function that will divide the counter value by 3 and return the remainder.
-
-// 3. Write a function that will print 'ODD' or 'EVEN' based on the counter value.
 
 // *******console.log vs return*******
 
