@@ -5,8 +5,8 @@
 // Define a function called "greeting". It should accept two parameters, which will be names.
 // The function should log a greeting to both people.
 
-function greeting(*/parameters*/) {
-    */write the function body here*/
+function greeting(/*parameters*/) {
+    /*write the function body here*/
 }
 greeting("Rachel","Brent");
 
