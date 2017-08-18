@@ -1,3 +1,9 @@
+// ******* Operators and Expressions *******
+
+// 1. Declare and assign 6 variables: 2 that are strings, 2 that are numbers, 2 that are booleans.
+// Use the variables you declared to write expressions.  Predict what the expression will evaluate to before you try it.
+// Ex: var string1 = 'STRING'  var string2 = 'string'  console.log(string1 === string2);  Prediction: false
+
 var string = 'This is a string';
 var num = 3;
 var numStr = '3';
