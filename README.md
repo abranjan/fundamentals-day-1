@@ -15,7 +15,7 @@
    
    
 
-###Resources:
+### Resources:
 
 Keyboarding:  
 - [Why is keyboarding important?](https://blog.codinghorror.com/we-are-typists-first-programmers-second/)  
