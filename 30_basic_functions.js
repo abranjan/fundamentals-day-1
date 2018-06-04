@@ -1,11 +1,11 @@
 // Remember to look at documentation and ask your partners when you get stuck
 // Simple math functions
 
-var add = function(a, b) {
+const add = function(a, b) {
     return a + b;
-}
+};
 
-var result = add(3,4);
+const result = add(3,4);
 console.log('The result of add is: ', result);
 
 // Use the example above to write your own functions to solve common math problems
@@ -31,11 +31,11 @@ console.log('The result of add is: ', result);
 Functions that return a boolean
 Write a function that:
 1. accepts a number
-2. evaluats an expression with that number
+2. evaluates an expression with that number
 3. returns true or false based on the expression
 */
 
-var counter = 0;
+let counter = 0;
 // 1. Write a function that will add 5 to the counter value each time you invoke it.
 
 // 2. Write a function that will divide the counter value by 3 and return the remainder.
@@ -46,5 +46,3 @@ var counter = 0;
 // 1. Write 2 functions.  Both should accept a string as a parameter.  In the first, return the string.
 // In the second, console.log the string.  What do you see in the console when you invoke each one?
 // Can you use a variable to catch the return value from the first function?
-
-// Survey: copy and paste into address bar:  https://docs.google.com/forms/d/e/1FAIpQLScbSRAEAUcG7_m-C3Ov0BUBg8n1-k7s44hc3D9byuAfFkfq5A/viewform?usp=sf_link

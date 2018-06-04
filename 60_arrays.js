@@ -10,7 +10,7 @@
 // 5. Write 'The current length of the array is....' using the .length method
 
 // Use the following Array for questions 6-11:
-var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
+let things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 6. Change 'mouse' to 'keyboard'
 
@@ -25,13 +25,13 @@ var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 // 11. Remove all items from itemLast
 
 // 12. Using the Arrays below, create a single Array called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
-var firstArray = [12, 5, 9, 27];
-var secondArray = ['fish', 'dog'];
+let firstArray = [12, 5, 9, 27];
+let secondArray = ['fish', 'dog'];
 
 
 // Use the following array for questions 13-16:
 
-var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
+let people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
 // 13. Add two new people after 'Doug'
 
@@ -43,9 +43,9 @@ var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
 
 // 17. Create an array of arrays with the following three arrays:
-var array1 = ["Fido", "Spot", "Rex", "Sparky"];
-var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"];
-var array3 = ["White", "Black", "Spotted", "Tri-color"];
+let array1 = ["Fido", "Spot", "Rex", "Sparky"];
+let array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"];
+let array3 = ["White", "Black", "Spotted", "Tri-color"];
 
 
 
@@ -54,11 +54,11 @@ var array3 = ["White", "Black", "Spotted", "Tri-color"];
 
 // BONUS 1: Try to arrange the following items from smallest to largest:
 
-var sortingNumbers = [2, 5, 98, 55, 77, 300];
+let sortingNumbers = [2, 5, 98, 55, 77, 300];
 
 
 // BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
-var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
+let array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
 
 //Goal
-//var array2 = ['plant', 17, 2, 'Bill', 'dog'];
+//let array2 = ['plant', 17, 2, 'Bill', 'dog'];

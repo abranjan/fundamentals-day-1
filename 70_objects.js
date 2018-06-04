@@ -1,5 +1,5 @@
 //objects
-var pokemon = {
+const pokemon = {
     englishName: "Eevee",
     japaneseName: "Eievui",
     eeveelutions: ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbeon", "Leafeon", "Glaceon", "Sylveon"],
@@ -8,7 +8,7 @@ var pokemon = {
     attack: function() {
         console.log("Attacking!!!!");
     },
-}
+};
 
 console.log("This is a JavaScript object: ", pokemon);
 
@@ -57,7 +57,7 @@ pokemon.attack();
 
 
 // Use the following Object for questions 4-9:
-var invitees = { adults: [{
+const invitees = { adults: [{
                           name: "Penny",
                           table: 10,
                           dinnerChoice: ["salad", "beef", "ice cream"]

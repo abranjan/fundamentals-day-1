@@ -35,21 +35,21 @@ sum([1, 2, 3, 4, 5, 6]);
 // Write a function accepts a six-digit number that reverses the number.
 // (Hint, you will have to turn the integer into a string before you can reverse it.)
 
-var longNum = 123456;
+const longNum = 123456;
 
 
 
 // Write a function that accepts the following array and separates the people into two teams.
 // No names next to each other in the array should be on the same team.
 
-teammates = ["Yuina", "Ren", "Hiroto", "Hina", "Yuuma", "Minato", "Airi", "Mei", "Yuuto", "Haruto", "Koharu"]
+const teammates = ["Yuina", "Ren", "Hiroto", "Hina", "Yuuma", "Minato", "Airi", "Mei", "Yuuto", "Haruto", "Koharu"]
 
 
 
 // Write a function called filterSixPlus() that takes the following array and logs words
 // that are six characters or longer.
 
-var words = ["bento", "metro", "shinkansen", "onsen", "izakaya", "tatami"];
+const words = ["bento", "metro", "shinkansen", "onsen", "izakaya", "tatami"];
 
 
 // Write a function countTs() that takes a string as its only argument and returns

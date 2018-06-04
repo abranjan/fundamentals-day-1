@@ -1,5 +1,5 @@
 // Example:
-var bigNumber = function (numA, numB) {
+const bigNumber = function (numA, numB) {
     if (numA > numB) {
         console.log('A is big!');
     } else {
@@ -9,50 +9,52 @@ var bigNumber = function (numA, numB) {
 
 bigNumber(4, 89);
 
-var registerToVote = function (age) {
+const registerToVote = function (age) {
     if (age >= 18) {
         console.log("You are " + age + ". Have you registerd to vote?");
     } else {
         console.log("You are " + age + ". You are not old enough to vote.");
     }
-}
+};
 
 registerToVote(17);
 registerToVote(21);
 
 
 console.log('Task #1: Write a function that takes 2 numbers and returns whichever number is the higher number');
-var max = function (/* some parameters */) {
+const max = function (/* some parameters */) {
     /* solution goes here! */
 
-}
-var result = max(1, 2);
+};
+
+const result = max(1, 2);
 console.log('Result #1: ' + result + ' (should be 2)');
 
 
 console.log('Task #2: Write a function takes a language code ("es", "de", "en") and returns "Hello, World" for the given language');
-var translate = function (/* some parameters */) {
+const translate = function (/* some parameters */) {
     /* solution goes here! */
 
-}
-var result1 = translate('en');
-var result2 = translate('es');
-var result3 = translate('de');
+};
+
+const result1 = translate('en');
+const result2 = translate('es');
+const result3 = translate('de');
 console.log('Result #2: (en) ' + result1 + ' (should be "Hello, world!)');
 console.log('Result #2: (es) ' + result2 + ' (should be "¡Hola, Mundo!")');
 console.log('Result #2: (de) ' + result3 + ' (should be "Hallo, Welt!")');
 
 
 console.log('Task #3: Write a function that takes percentile score and returns a grade (A, B, C, D, F)');
-var assignGrade = function (/* some parameters */) {
+const assignGrade = function (/* some parameters */) {
     /* solution goes here! */
 
-}
-var resultA = assignGrade(90);
-var resultB = assignGrade(80);
-var resultC = assignGrade(70);
-var resultD = assignGrade(60);
-var resultF = assignGrade(50);
+};
+const resultA = assignGrade(90);
+const resultB = assignGrade(80);
+const resultC = assignGrade(70);
+const resultD = assignGrade(60);
+const resultF = assignGrade(50);
 console.log('Result #3: (A)' + resultA + ' (should be A)');
 console.log('Result #3: (B)' + resultB + ' (should be B)');
 console.log('Result #3: (C)' + resultC + ' (should be C)');
