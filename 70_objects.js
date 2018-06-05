@@ -1,14 +1,14 @@
 // //objects
-// const pokemon = {
-//     englishName: "Eevee",
-//     japaneseName: "Eievui",
-//     eeveelutions: ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbeon", "Leafeon", "Glaceon", "Sylveon"],
-//     type: "Normal",
-//     hp: 20,
-//     attack: function() {
-//         console.log("Attacking!!!!");
-//     },
-// };
+const pokemon = {
+    englishName: "Eevee",
+    japaneseName: "Eievui",
+    eeveelutions: ["Vaporeon", "Jolteon", "Flareon", "Espeon", "Umbeon", "Leafeon", "Glaceon", "Sylveon"],
+    type: "Normal",
+    hp: 20,
+    attack: function() {
+        console.log("Attacking!!!!");
+    },
+};
 //
 // console.log("This is a JavaScript object: ", pokemon);
 //
