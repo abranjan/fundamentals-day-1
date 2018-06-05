@@ -22,8 +22,11 @@ registerToVote(21);
 
 
 console.log('Task #1: Write a function that takes 2 numbers and returns whichever number is the higher number');
-const max = function (/* some parameters */) {
-    /* solution goes here! */
+const max = function (num1,num2) {
+    if(num1 > num2)
+        return num1
+    else
+        return num2
 
 };
 
@@ -62,23 +65,23 @@ console.log('Result #3: (D)' + resultD + ' (should be D)');
 console.log('Result #3: (F)' + resultF + ' (should be F)');
 
 
-console.log('Task #4: Write a function that takes a noun and a number and returns the number and pluralized form ("5 cats" or "1 dog")');
-var pluralize = function (/* some parameters */) {
-    /* solution goes here! */
-
-}
-var result1 = pluralize(5, 'cat');
-var result2 = pluralize(1, 'dog');
-var result3 = pluralize(3, 'sheep');
-var result4 = pluralize(1, 'sheep');
-var result5 = pluralize(1, 'geese');
-var result6 = pluralize(2, 'geese');
-console.log('Result #4: ' + result1);
-console.log('Result #4: ' + result2);
-console.log('Result #4: ' + result3);
-console.log('Result #4: ' + result4);
-console.log('Result #4: ' + result5);
-console.log('Result #4: ' + result6);
+// console.log('Task #4: Write a function that takes a noun and a number and returns the number and pluralized form ("5 cats" or "1 dog")');
+// var pluralize = function (/* some parameters */) {
+//     /* solution goes here! */
+//
+// }
+// var result1 = pluralize(5, 'cat');
+// var result2 = pluralize(1, 'dog');
+// var result3 = pluralize(3, 'sheep');
+// var result4 = pluralize(1, 'sheep');
+// var result5 = pluralize(1, 'geese');
+// var result6 = pluralize(2, 'geese');
+// console.log('Result #4: ' + result1);
+// console.log('Result #4: ' + result2);
+// console.log('Result #4: ' + result3);
+// console.log('Result #4: ' + result4);
+// console.log('Result #4: ' + result5);
+// console.log('Result #4: ' + result6);
 
 // Lovingly adapted from: https://www.teaching-materials.org/javascript/
 // https://creativecommons.org/licenses/by-sa/3.0/
@@ -88,3 +91,4 @@ console.log('Result #4: ' + result6);
 
 // 1. Write a function that accepts a number as a parameter and prints a message that depends on the number.
 // Ex: If you invoke the function with 29, it might print, 'Wow, it is hot today!'
+

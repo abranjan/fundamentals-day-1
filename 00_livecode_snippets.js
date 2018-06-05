@@ -145,6 +145,7 @@ const pokemon = {
     }
 };
 
+
 // Functions calling Functions
 
 const function1 = function() {

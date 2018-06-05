@@ -11,3 +11,15 @@
 // 5. Log the length of 'snack'.
 
 
+let name = `Abhishek`
+console.log(name)
+
+let year = 2018
+console.log(year)
+
+let snack = `Umer`
+console.log(snack)
+
+console.log(snack.length)
+
+
